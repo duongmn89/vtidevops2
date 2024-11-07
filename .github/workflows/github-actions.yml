@@ -31,5 +31,5 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           script: |
             cd /home/duongmn/auto
-            docker-compose down
-            docker-compose up -d
+            docker compose down
+            docker compose up -d
